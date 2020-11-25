@@ -11,7 +11,7 @@ this.state={}
 this.performSearch("Thor")
   }
 performSearch(searchTerm){
-  console.log('perform search')
+  console.log('perform searching')//for check search
   const urlString="https://api.themoviedb.org/3/search/movie?api_key=1b5adf76a72a13bad99b8fc0c68cb085&query="+searchTerm;
   $.ajax({
     url: urlString,
